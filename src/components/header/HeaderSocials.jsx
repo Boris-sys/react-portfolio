@@ -5,9 +5,9 @@ import {BiLogoGmail} from 'react-icons/bi'
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
-        <a href="linkedin.com" target='_blank'><BsLinkedin/></a>
-        <a href="github.com" target='_blank'><BsGithub/></a>
-        <a href="gmail.com" target='_blank'><BiLogoGmail/></a>
+        <a href="https://www.linkedin.com/in/boris-kerbs/" target='_blank' rel="noreferrer"><BsLinkedin/></a>
+        <a href="https://www.github.com" target='_blank' rel="noreferrer"><BsGithub/></a>
+        <a href="https://www.gmail.com" target='_blank' rel="noreferrer"><BiLogoGmail/></a>
     </div>
   )
 }
