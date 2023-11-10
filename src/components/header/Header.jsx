@@ -14,9 +14,12 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
         <div className='me'>
+          {/* Picture should be png with transparent backgorund */}
+          {/* bottom fadeout in bottom picture could be a nice option */}
           <img src={ME} alt="me" />
         </div>
       </div>
+      {/* I should include theme switcher next to "Scroll Down" or at the bottom of the page */}
       <a href="#contact" className='scroll__down'>Scroll Down</a>
     </header>
   )

@@ -17,6 +17,7 @@ export const About = () => {
           </div>
         </div>
 
+        {/* When mobile sizing applied and articles numbers not even the last card should be centered */}
         <div className='about__content'>
           <div className='about__cards'>
 

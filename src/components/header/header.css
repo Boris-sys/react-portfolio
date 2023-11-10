@@ -47,6 +47,7 @@ header{
     overflow: hidden;
     padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
+/* Picture gets cropped when re-sizing horizontally... review pending */
 
 .scroll__down{
     position: absolute;
