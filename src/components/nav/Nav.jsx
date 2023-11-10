@@ -1,17 +1,39 @@
 import React from 'react'
 import './nav.css'
-import {AiOutlineHome, AiOutlineUser} from 'react-icons/ai'
-import {BiBook, BiMessageAltDetail,BiHomeAlt} from 'react-icons/bi'
-import {FaRegHandshake} from 'react-icons/fa'
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
+import { BiBook, BiMessageAltDetail, BiHomeAlt } from 'react-icons/bi'
+import { FaRegHandshake } from 'react-icons/fa'
+import { useState } from 'react'
 
 const Nav = () => {
+  const [activeNav, setActiveNav] = useState('#')
   return (
     <nav>
-      <a href="#"><BiHomeAlt/></a>
-      <a href="#about"><AiOutlineUser/></a>
-      <a href="#experience"><BiBook/></a>
-      <a href="#services"><FaRegHandshake/></a>
-      <a href="#contact"><BiMessageAltDetail/></a>
+      <a href="#" onClick=
+        {() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
+        <BiHomeAlt /></a>
+
+
+      <a href="#about" onClick=
+        {() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
+        <AiOutlineUser />
+      </a>
+
+      <a href="#experience" onClick=
+        {() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
+        <BiBook />
+      </a>
+
+      <a href="#services" onClick=
+        {() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}>
+        <FaRegHandshake />
+      </a>
+
+      <a href="#contact" onClick=
+        {() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
+        <BiMessageAltDetail />
+      </a>
+
     </nav>
   )
 }
