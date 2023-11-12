@@ -8,7 +8,7 @@ const Services = () => {
       <h5>What I Offerr</h5>
       <h2>Services</h2>
 
-      <div className='container services_container'>
+      <div className='container services__container'>
 
         {/* 1st Services list */}
         <article className='service'>
@@ -49,11 +49,6 @@ const Services = () => {
             <h3>ETLs</h3>
           </div>
           <ul className='service__list'>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-            </li>
-
             <li>
               <BiCheck className='service__list-icon' />
               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
