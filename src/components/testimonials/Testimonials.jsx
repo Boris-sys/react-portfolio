@@ -5,6 +5,14 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
+//Swiper imports
+import {Pagination} from 'swiper'
+import {Swiper, SwiperSlide} from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/pagination'
+//Swiper React components will likely to be removed in future versions.
+//It is recommended to migrate to Swiper Element instead
+
 const data = [
   {
     avatar: AVTR1,
@@ -17,7 +25,7 @@ const data = [
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore quas quis repellendus suscipit natus hic? Explicabo deserunt facilis qui consequuntur eaque veritatis tenetur placeat maxime eos quia, possimus architecto!'
   },
   {
-    avatar: AVTR2,
+    avatar: AVTR3,
     name: 'CraftLabs',
     description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore quas quis repellendus suscipit natus hic? Explicabo deserunt facilis qui consequuntur eaque veritatis tenetur placeat maxime eos quia, possimus architecto!'
   },
@@ -28,21 +36,21 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Places Where I Worked</h5>
       <h2>Companies</h2>
-      <div className='container testimonials__container'>
+      <Swiper className='container testimonials__container'>
         {
           data.map(({ avatar, name, description }, index) => {
             return (
-              <article key={index} className='testimonials'>
+              <SwiperSlide key={index} className='testimonials'>
                 <div className='client__avatar'>
                   <img src={avatar} alt="Avatar One" />
                 </div>
                 <h5 className='client__name'>{name}</h5>
                 <small className='client__review'>{description}</small>
-              </article>
+              </SwiperSlide>
             )
           })
         }
-      </div>
+      </Swiper>
     </section>
   )
 }
