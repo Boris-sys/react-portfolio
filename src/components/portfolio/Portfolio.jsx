@@ -7,6 +7,37 @@ import IMG4 from '../../assets/portfolio4.jpg'
 import IMG5 from '../../assets/portfolio5.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
+const data = [
+  {
+    id: 1,
+    Image: IMG1,
+    title: "Proyecto 1",
+    git: "github.com",
+    demo: "github.com",
+  },
+  {
+    id: 2,
+    Image: IMG2,
+    title: "Proyecto 2",
+    git: "github.com",
+    demo: "github.com",
+  },
+  {
+    id: 3,
+    Image: IMG3,
+    title: "Proyecto 3",
+    git: "github.com",
+    demo: "github.com",
+  },
+  {
+    id: 4,
+    Image: IMG4,
+    title: "Proyecto 4",
+    git: "github.com",
+    demo: "github.com",
+  }
+]
+
 const Portfolio = () => {
   return (
     <section id='portfolio'>
@@ -14,51 +45,24 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
       <div className='container portfolio__container'>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3> This is a portfolio item title</h3>
-          <a href="github.com" className='btn' target='_blank'>Github</a>
-          <a href="github.com" className='btn' target='_blank'>Demo</a>
-        </article>
+        {
+          data.map(({ id, Image, title, github, demo }) => {
+            return (
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3> This is a portfolio item title</h3>
-          <a href="github.com" className='btn' target='_blank'>Github</a>
-          <a href="github.com" className='btn' target='_blank'>Demo</a>
-        </article>
+              <article key={id} className='portfolio__item'>
+                <div className='portfolio__item-image'>
+                  <img src={Image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className='portfolio__item-cta'>
+                  <a href={github} className='btn' target='_blank'>Github</a>
+                  <a href={demo} className='btn' target='_blank'>Demo</a>
+                </div>
+              </article>
 
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3> This is a portfolio item title</h3>
-          <a href="github.com" className='btn' target='_blank'>Github</a>
-          <a href="github.com" className='btn' target='_blank'>Demo</a>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3> This is a portfolio item title</h3>
-          <a href="github.com" className='btn' target='_blank'>Github</a>
-          <a href="github.com" className='btn' target='_blank'>Demo</a>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG1} alt="" />
-          </div>
-          <h3> This is a portfolio item title</h3>
-          <a href="github.com" className='btn' target='_blank'>Github</a>
-          <a href="github.com" className='btn' target='_blank'>Demo</a>
-        </article>
-
+            )
+          })
+        }
       </div>
     </section>
   )
