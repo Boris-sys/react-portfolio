@@ -11,12 +11,17 @@ export const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_key', 'template_key', form.current, 'api_key')
+    emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY,
+      process.env.REACT_APP_TEMPLATE_KEY,
+      form.current,
+      process.env.REACT_APP_API_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
+
+      e.target.reset()
   };
 
   return (
