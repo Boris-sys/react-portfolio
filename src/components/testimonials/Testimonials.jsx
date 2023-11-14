@@ -1,13 +1,14 @@
 import React from 'react'
 import './testimonials.css'
-import AVTR1 from '../../assets/avatar1.jpg'
-import AVTR2 from '../../assets/avatar2.jpg'
-import AVTR3 from '../../assets/avatar3.jpg'
+import AVTR1 from '../../assets/aces-logo-500.png'
+import AVTR2 from '../../assets/corebi-logo-500.png'
+import AVTR3 from '../../assets/craftlabs-logo-500.png'
 import AVTR4 from '../../assets/avatar4.jpg'
 
 //Swiper imports
-import {Pagination} from 'swiper'
+
 import {Swiper, SwiperSlide} from 'swiper/react'
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
 import 'swiper/css'
 import 'swiper/css/pagination'
 //Swiper React components will likely to be removed in future versions.
@@ -36,7 +37,10 @@ const Testimonials = () => {
     <section id='testimonials'>
       <h5>Places Where I Worked</h5>
       <h2>Companies</h2>
-      <Swiper className='container testimonials__container'>
+      <Swiper className='container testimonials__container' 
+      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      spaceBetween={50}
+      pagination={{ clickable: true }}>
         {
           data.map(({ avatar, name, description }, index) => {
             return (

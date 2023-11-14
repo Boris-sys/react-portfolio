@@ -12,12 +12,37 @@
 }
 
 :root{
-    --color-bg: #1f1f38;
+    /* Original color palette */
+    /* --color-bg: #1f1f38;
     --color-bg-variant: #2c2c6c;
     --color-primary: #4db5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
     --color-white: #fff;
+    --color-light: rgba(255,255,255,0.6); */
+
+    /* Custom color palette pastel green*/
+    --color-bg: #081c15;
+    --color-bg-variant: #1b4332;
+    --color-primary: #52b788;
+    --color-primary-variant: rgba(64, 145, 108,0.4);
+    --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
+
+    /* Custom color palette cyber yellow*/
+    --color-bg: #242423;
+    --color-bg-variant: #333533;
+    --color-primary: #F5CB5C;
+    --color-primary-variant: rgba(77,181,255,0.4);
+    --color-white: #fff;
+    --color-light: rgba(255,255,255,0.6);
+
+     /* Custom color palette space purple*/
+     --color-bg: #2C0735;
+     --color-bg-variant: #4E148C;
+     --color-primary: #858AE3;
+     --color-primary-variant: rgba(64, 145, 108,0.4);
+     --color-white: #fff;
+     --color-light: rgba(255,255,255,0.6);
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
