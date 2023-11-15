@@ -23,27 +23,31 @@ export const About = () => {
 
             <article className='about__card'>
               <BsFillAwardFill className='about__icon' />
-              <h5>Experience</h5>
+              <h3>Experience</h3>
+              <h5>So far</h5>
               <small> 2+ Years Wotking</small>
             </article>
 
             <article className='about__card'>
               <FiUsers className='about__icon' />
-              <h5>Clients</h5>
-              <small>Muchos xd</small>
+              <h3>Companies</h3>
+              <h5>I worked with</h5>
+              <small>3 Worldwide</small>
             </article>
 
             <article className='about__card'>
               <FaCogs className='about__icon' />
-              <h5>Projects</h5>
+              <h3>Projects</h3>
+              <h5>Which I collaborated</h5>
               <small> 4 Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia, earum? Harum error, 
-            eligendi nulla laboriosam vel dolorem libero esse quam ipsa debitis illo delectus fugiat 
-            aspernatur officia soluta, facilis aliquam.
+          After obtaining my university degree at the "Universidad Adventista del Plata" I evoked my professional effort 
+          to get jobs that allow me to grow in the technical aspect and in the interpersonal aspect.<br/>Always seeking to 
+          vary my stack to offer the best possible solution to the problems that are presented to me.
           </p>
+          <p></p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
       </div>
