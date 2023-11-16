@@ -2,6 +2,7 @@ import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/portfolio teamwork 1.jpg'
 import IMG2 from '../../assets/portfolio teamwork 2.jpg'
+import IMG3 from '../../assets/portfolio teamwork 3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
 
 const teamwork = [
@@ -9,22 +10,22 @@ const teamwork = [
     id: 2,
     Image: IMG1,
     title: "Book-selling eCommerce",
-    git: "github.com",
-    demo: "github.com",
+    url: "https://commerce.editorialaces.com/",
+    btText: "Site",
   },
   {
     id: 3,
     Image: IMG2,
     title: "Book subscription PWA",
-    git: "github.com",
-    demo: "github.com",
+    url: "https://pedidos.editorialaces.com/",
+    btText: "Site",
   },
   {
     id: 4,
-    Image: IMG4,
-    title: "Proyecto 4",
-    git: "github.com",
-    demo: "github.com",
+    Image: IMG3,
+    title: "Decision Making KPI dashboard",
+    url: "github.com",
+    btText: "Peek",
   }
 ]
 
@@ -33,22 +34,22 @@ const solowork = [
     id: 2,
     Image: IMG4,
     title: "Proyecto 2",
-    git: "github.com",
-    demo: "github.com",
+    url: "github.com",
+    btText: "github.com",
   },
   {
     id: 3,
     Image: IMG4,
     title: "Proyecto 3",
-    git: "github.com",
-    demo: "github.com",
+    url: "github.com",
+    btText: "github.com",
   },
   {
     id: 4,
     Image: IMG4,
     title: "Proyecto 4",
-    git: "github.com",
-    demo: "github.com",
+    url: "github.com",
+    btText: "github.com",
   }
 ]
 
@@ -61,7 +62,7 @@ const Portfolio = () => {
       <div className='container portfolio__container'>
 
         {
-          teamwork.map(({ id, Image, title, github, demo }) => {
+          teamwork.map(({ id, Image, title, url, btText }) => {
             return (
 
               <article key={id} className='portfolio__item'>
@@ -70,8 +71,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn' target='_blank'>Demo</a>
+                  <a href={url} className='btn' target='_blank'>{btText}</a>
                 </div>
               </article>
 
@@ -85,7 +85,7 @@ const Portfolio = () => {
       
 
         {
-          solowork.map(({ id, Image, title, github, demo }) => {
+          solowork.map(({ id, Image, title, url, btText }) => {
             return (
 
               <article key={id} className='portfolio__item'>
@@ -94,8 +94,7 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn' target='_blank'>Demo</a>
+                <a href={url} className='btn' target='_blank'>{btText}</a>
                 </div>
               </article>
 
