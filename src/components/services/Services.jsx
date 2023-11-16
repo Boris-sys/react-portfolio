@@ -18,27 +18,27 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Interaction display and gesture feedback handling.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Typography, readability and page layout management.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Animation and transition arrangement.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>User behavior and feeling control while navigating the aplication.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Load times and responsiveness priorization.</p>
             </li>
           </ul>
         </article>
@@ -46,27 +46,32 @@ const Services = () => {
         {/* 2nd Services list */}
         <article className='service'>
           <div className='service__head'>
-            <h3>ETLs</h3>
+            <h3>Data Engineering and ETLs</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>High-quality passes through and loads into Datawarehouse.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Relevant data identifiacation, cleaning and deduplication.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Pipeline building and management over evolving requirements.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Code versioning and smooth production implementations.</p>
+            </li>
+
+            <li>
+              <BiCheck className='service__list-icon' />
+              <p>Cloud based process execution scheduling for large volumes of data.</p>
             </li>
           </ul>
         </article>
@@ -74,32 +79,32 @@ const Services = () => {
         {/* 3rd Services list */}
         <article className='service'>
           <div className='service__head'>
-            <h3>DB Management</h3>
+            <h3>Business Intelligence</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Raw data analying and decision-making process assisting</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Sensitive information management and user data safeguarding.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>insight sharing through reports.</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Pattern finding for a better shcema visualization</p>
             </li>
 
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+              <p>Data interpretation and active listening for problem comprehension.</p>
             </li>
           </ul>
         </article>

@@ -1,7 +1,18 @@
+
+.portfolio__subtitle::after {
+    display: inline-block;
+    content: "";
+    border-top: .1rem solid var(--color-primary);
+    width: 60vw;
+    margin: 0 1rem;
+    transform: translateY(-2rem) translateX(7rem);
+}
+
 .portfolio__container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
+    padding-bottom: 4rem;
 }
 
 .portfolio__item{
