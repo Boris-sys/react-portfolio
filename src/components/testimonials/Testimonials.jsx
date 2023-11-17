@@ -18,17 +18,17 @@ const data = [
   {
     avatar: AVTR1,
     name: 'Asociacion Casa Editora Sudamericana',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore quas quis repellendus suscipit natus hic? Explicabo deserunt facilis qui consequuntur eaque veritatis tenetur placeat maxime eos quia, possimus architecto!'
+    description: 'The "Asociación Casa Editora Sudamericana" (ACES) is one of the 63 publishing houses belonging to the Seventh-day Adventist Church. The IT department is in charge of developing solutions to expand the commercial aspect of the company to facilitate access to its books so more people can learn from the word of God.'
   },
   {
     avatar: AVTR2,
-    name: 'CoreBi',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore quas quis repellendus suscipit natus hic? Explicabo deserunt facilis qui consequuntur eaque veritatis tenetur placeat maxime eos quia, possimus architecto!'
+    name: 'CoreBI',
+    description: 'CoreBI  is a Data & Analytics product and service innovation company offering strategy, design and consulting services to the most ambitious companies and brands in the region. Leveraging his design-driven approach to create cutting-edge solutions.'
   },
   {
     avatar: AVTR3,
     name: 'CraftLabs',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum labore quas quis repellendus suscipit natus hic? Explicabo deserunt facilis qui consequuntur eaque veritatis tenetur placeat maxime eos quia, possimus architecto!'
+    description: 'CraftLabs is a software company that helps you building awesome solutions. With an agile process that is built on top of the best engineering practices. Their staff is comprised of full-stack developers and architects, who are versed in the very latest technologies and love what they do!'
   },
 ]
 

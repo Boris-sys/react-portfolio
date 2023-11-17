@@ -2,12 +2,14 @@ import React from 'react'
 import './portfolio.css'
 import CaseStudyReq from '../../assets/Placeholder Req.pdf'
 import CaseStudySol from '../../assets/Placeholder Case study.pptx'
+import EndtoEndPipeline from '../../assets/End to end data pipeline.pptx'
 import IMG1 from '../../assets/portfolio teamwork 1.jpg'
 import IMG2 from '../../assets/portfolio teamwork 2.jpg'
 import IMG3 from '../../assets/portfolio teamwork 3.jpg'
 import IMG4 from '../../assets/portfolio solowork 1.jpg'
 import IMG5 from '../../assets/portfolio solowork 2.jpg'
 import IMG6 from '../../assets/portfolio solowork 3.jpg'
+import IMG7 from '../../assets/portfolio solowork 4.jpg'
 
 
 const teamwork = [
@@ -37,13 +39,20 @@ const teamwork = [
 const solowork = [
   {
     id: 4,
+    Image: IMG7,
+    title: "End to End GCP Pipeline",
+    url: EndtoEndPipeline,
+    btText: "Presentation",
+  },
+  {
+    id: 5,
     Image: IMG5,
     title: "Sudoku Assestment",
     url: "https://github.com/Boris-sys/PythonChallenge",
     btText: "Repo",
   },
   {
-    id: 5,
+    id: 6,
     Image: IMG6,
     title: "Dash POC",
     url: "https://github.com/Boris-sys/TestingPythonDash",
