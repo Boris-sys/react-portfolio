@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import MeAbout from '../../assets/me-about2.jpg'
+import MeAbout from '../../assets/me-about3.jpg'
 import { BsFillAwardFill } from 'react-icons/bs'
 import { FiUsers } from 'react-icons/fi'
 import { FaCogs } from 'react-icons/fa'
