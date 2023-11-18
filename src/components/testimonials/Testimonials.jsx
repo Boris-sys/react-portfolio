@@ -3,8 +3,6 @@ import './testimonials.css'
 import AVTR1 from '../../assets/aces-logo-500.png'
 import AVTR2 from '../../assets/corebi-logo-500.png'
 import AVTR3 from '../../assets/craftlabs-logo-500.png'
-import AVTR4 from '../../assets/avatar4.jpg'
-
 //Swiper imports
 
 import {Swiper, SwiperSlide} from 'swiper/react'
