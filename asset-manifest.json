@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.3c3535c5.css",
-    "main.js": "/react-portfolio/static/js/main.a1d9c026.js",
+    "main.js": "/react-portfolio/static/js/main.83b63809.js",
     "static/media/End to end data pipeline.pptx": "/react-portfolio/static/media/End to end data pipeline.2fe2026ebe9b412d80b9.pptx",
-    "static/media/cv.pdf": "/react-portfolio/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/Placeholder Case study.pptx": "/react-portfolio/static/media/Placeholder Case study.b8fa08819cc8bfaf40cd.pptx",
-    "static/media/MeB.png": "/react-portfolio/static/media/MeB.1720ae606766499822bc.png",
-    "static/media/me-about2.jpg": "/react-portfolio/static/media/me-about2.1a5818dc711a6cb14043.jpg",
+    "static/media/me3.png": "/react-portfolio/static/media/me3.fbc70db7c0f5f9060127.png",
+    "static/media/me-about3.jpg": "/react-portfolio/static/media/me-about3.d263c13782637c105d16.jpg",
+    "static/media/cv.pdf": "/react-portfolio/static/media/cv.342c4e2a04e4a0b93b5f.pdf",
     "static/media/portfolio solowork 2.jpg": "/react-portfolio/static/media/portfolio solowork 2.f3621749b7f78780b0c6.jpg",
     "static/media/portfolio solowork 1.jpg": "/react-portfolio/static/media/portfolio solowork 1.5bc6968b08af63271e08.jpg",
     "static/media/portfolio solowork 3.jpg": "/react-portfolio/static/media/portfolio solowork 3.dde04493a92ddea3a1be.jpg",
@@ -20,10 +20,10 @@
     "static/media/craftlabs-logo-500.png": "/react-portfolio/static/media/craftlabs-logo-500.d68d8dd55da55a10241f.png",
     "index.html": "/react-portfolio/index.html",
     "main.3c3535c5.css.map": "/react-portfolio/static/css/main.3c3535c5.css.map",
-    "main.a1d9c026.js.map": "/react-portfolio/static/js/main.a1d9c026.js.map"
+    "main.83b63809.js.map": "/react-portfolio/static/js/main.83b63809.js.map"
   },
   "entrypoints": [
     "static/css/main.3c3535c5.css",
-    "static/js/main.a1d9c026.js"
+    "static/js/main.83b63809.js"
   ]
 }
