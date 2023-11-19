@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.3c3535c5.css",
-    "main.js": "/react-portfolio/static/js/main.83b63809.js",
-    "static/media/End to end data pipeline.pptx": "/react-portfolio/static/media/End to end data pipeline.2fe2026ebe9b412d80b9.pptx",
-    "static/media/Placeholder Case study.pptx": "/react-portfolio/static/media/Placeholder Case study.b8fa08819cc8bfaf40cd.pptx",
-    "static/media/me3.png": "/react-portfolio/static/media/me3.fbc70db7c0f5f9060127.png",
-    "static/media/me-about3.jpg": "/react-portfolio/static/media/me-about3.d263c13782637c105d16.jpg",
-    "static/media/cv.pdf": "/react-portfolio/static/media/cv.342c4e2a04e4a0b93b5f.pdf",
-    "static/media/portfolio solowork 2.jpg": "/react-portfolio/static/media/portfolio solowork 2.f3621749b7f78780b0c6.jpg",
-    "static/media/portfolio solowork 1.jpg": "/react-portfolio/static/media/portfolio solowork 1.5bc6968b08af63271e08.jpg",
-    "static/media/portfolio solowork 3.jpg": "/react-portfolio/static/media/portfolio solowork 3.dde04493a92ddea3a1be.jpg",
-    "static/media/Placeholder Req.pdf": "/react-portfolio/static/media/Placeholder Req.0bcbbc38722df3181ae3.pdf",
-    "static/media/portfolio teamwork 1.jpg": "/react-portfolio/static/media/portfolio teamwork 1.b0b7018abb979dd1c944.jpg",
-    "static/media/portfolio teamwork 3.jpg": "/react-portfolio/static/media/portfolio teamwork 3.d4292c022c1578ebdfbe.jpg",
-    "static/media/portfolio teamwork 2.jpg": "/react-portfolio/static/media/portfolio teamwork 2.204ad43fada70cf0f6ae.jpg",
-    "static/media/portfolio solowork 4.jpg": "/react-portfolio/static/media/portfolio solowork 4.e7df2e5708e99eefe359.jpg",
-    "static/media/corebi-logo-500.png": "/react-portfolio/static/media/corebi-logo-500.e17f022b9b2f68d4d53f.png",
-    "static/media/aces-logo-500.png": "/react-portfolio/static/media/aces-logo-500.f033b91b861fcfa61c2f.png",
-    "static/media/craftlabs-logo-500.png": "/react-portfolio/static/media/craftlabs-logo-500.d68d8dd55da55a10241f.png",
-    "index.html": "/react-portfolio/index.html",
-    "main.3c3535c5.css.map": "/react-portfolio/static/css/main.3c3535c5.css.map",
-    "main.83b63809.js.map": "/react-portfolio/static/js/main.83b63809.js.map"
+    "main.css": "//boriskerbs.online/static/css/main.3c3535c5.css",
+    "main.js": "//boriskerbs.online/static/js/main.7d4fe36d.js",
+    "static/media/End to end data pipeline.pptx": "//boriskerbs.online/static/media/End to end data pipeline.2fe2026ebe9b412d80b9.pptx",
+    "static/media/Placeholder Case study.pptx": "//boriskerbs.online/static/media/Placeholder Case study.b8fa08819cc8bfaf40cd.pptx",
+    "static/media/me3.png": "//boriskerbs.online/static/media/me3.fbc70db7c0f5f9060127.png",
+    "static/media/me-about3.jpg": "//boriskerbs.online/static/media/me-about3.d263c13782637c105d16.jpg",
+    "static/media/cv.pdf": "//boriskerbs.online/static/media/cv.342c4e2a04e4a0b93b5f.pdf",
+    "static/media/portfolio solowork 2.jpg": "//boriskerbs.online/static/media/portfolio solowork 2.f3621749b7f78780b0c6.jpg",
+    "static/media/portfolio solowork 1.jpg": "//boriskerbs.online/static/media/portfolio solowork 1.5bc6968b08af63271e08.jpg",
+    "static/media/portfolio solowork 3.jpg": "//boriskerbs.online/static/media/portfolio solowork 3.dde04493a92ddea3a1be.jpg",
+    "static/media/Placeholder Req.pdf": "//boriskerbs.online/static/media/Placeholder Req.0bcbbc38722df3181ae3.pdf",
+    "static/media/portfolio teamwork 1.jpg": "//boriskerbs.online/static/media/portfolio teamwork 1.b0b7018abb979dd1c944.jpg",
+    "static/media/portfolio teamwork 3.jpg": "//boriskerbs.online/static/media/portfolio teamwork 3.d4292c022c1578ebdfbe.jpg",
+    "static/media/portfolio teamwork 2.jpg": "//boriskerbs.online/static/media/portfolio teamwork 2.204ad43fada70cf0f6ae.jpg",
+    "static/media/portfolio solowork 4.jpg": "//boriskerbs.online/static/media/portfolio solowork 4.e7df2e5708e99eefe359.jpg",
+    "static/media/corebi-logo-500.png": "//boriskerbs.online/static/media/corebi-logo-500.e17f022b9b2f68d4d53f.png",
+    "static/media/aces-logo-500.png": "//boriskerbs.online/static/media/aces-logo-500.f033b91b861fcfa61c2f.png",
+    "static/media/craftlabs-logo-500.png": "//boriskerbs.online/static/media/craftlabs-logo-500.d68d8dd55da55a10241f.png",
+    "index.html": "//boriskerbs.online/index.html",
+    "main.3c3535c5.css.map": "//boriskerbs.online/static/css/main.3c3535c5.css.map",
+    "main.7d4fe36d.js.map": "//boriskerbs.online/static/js/main.7d4fe36d.js.map"
   },
   "entrypoints": [
     "static/css/main.3c3535c5.css",
-    "static/js/main.83b63809.js"
+    "static/js/main.7d4fe36d.js"
   ]
 }
