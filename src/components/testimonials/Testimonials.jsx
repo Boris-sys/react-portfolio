@@ -3,6 +3,7 @@ import './testimonials.css'
 import AVTR1 from '../../assets/aces-logo-500.png'
 import AVTR2 from '../../assets/corebi-logo-500.png'
 import AVTR3 from '../../assets/craftlabs-logo-500.png'
+import Placeholder from '../../assets/poc/placeholder.png'
 //Swiper imports
 
 import {Swiper, SwiperSlide} from 'swiper/react'
@@ -30,24 +31,24 @@ const data = [
   },
 ]
 
-const Testimonials = () => {
+export default function Testimonials({ elements }) {
   return (
     <section id='testimonials'>
-      <h5>Places Where I Worked</h5>
-      <h2>Companies</h2>
+      <h5>Sales Header Details</h5>
+      <h2>Sales to promote</h2>
       <Swiper className='container testimonials__container' 
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
       pagination={{ clickable: true }}>
         {
-          data.map(({ avatar, name, description }, index) => {
+          elements.map(({ id, title, body, imgDir }, index) => {
             return (
               <SwiperSlide key={index} className='testimonials'>
                 <div className='client__avatar'>
-                  <img src={avatar} alt="Avatar One" />
+                  <img src={Placeholder} alt={Placeholder} />
                 </div>
-                <h5 className='client__name'>{name}</h5>
-                <small className='client__review'>{description}</small>
+                <h5 className='client__name'>{title}</h5>
+                <small className='client__review'>{body}</small>
               </SwiperSlide>
             )
           })
@@ -57,4 +58,4 @@ const Testimonials = () => {
   )
 }
 
-export default Testimonials
+// export default Testimonials

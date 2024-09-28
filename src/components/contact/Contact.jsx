@@ -10,7 +10,7 @@ export const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
+    emailjs.init({publicKey: "YOUR_PUBLIC_KEY"});
     emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY,
       process.env.REACT_APP_TEMPLATE_KEY,
       form.current,
@@ -27,7 +27,7 @@ export const Contact = () => {
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h2>Contact Admin</h2>
 
       <div className='container contact__container'>
         <div className='contact__options'>
@@ -41,9 +41,9 @@ export const Contact = () => {
 
           <article className='contact__option'>
             <BsLinkedin className='contact__option-icon'/>
-            <h4>LinkedIn</h4>
-            <h5>Boris Kerbs</h5>
-            <a href="https://www.linkedin.com/in/boris-kerbs/" target='_blank'>Send a message</a>
+            <h4>Donation</h4>
+            <h5>UbShare</h5>
+            <a href="https://www.linkedin.com/in/boris-kerbs/" target='_blank'>Send a donation</a>
           </article>
 
           <article className='contact__option'>

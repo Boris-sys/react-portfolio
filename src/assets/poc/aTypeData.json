@@ -1,0 +1,97 @@
+[
+    {
+        "userId": 1,
+        "id": 1,
+        "badges": [
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            }
+        ],
+        "title": "Service to Promote",
+        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+        "userId": 1,
+        "id": 2,
+        "badges": [
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            }
+        ],
+        "title": "Service to Promote",
+        "header": "Header Detail",
+        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+        "userId": 1,
+        "id": 3,
+        "badges": [
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            }
+        ],
+        "title": "Service to Promote",
+        "header": "Header Detail",
+        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    },
+    {
+        "userId": 1,
+        "id": 4,
+        "badges": [
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            },
+            {
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "footer": "Badge Footer"
+            }
+        ],
+        "title": "Service to Promote",
+        "header": "Header Detail",
+        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+    }
+]

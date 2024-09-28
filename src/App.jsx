@@ -8,22 +8,22 @@ import Portfolio from './components/portfolio/Portfolio'
 import Testimonials from './components/testimonials/Testimonials'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-import data from '../src/assets/poc/data.json'
+import aTypeData from '../src/assets/poc/aTypeData.json'
+import bTypeData from '../src/assets/poc/bTypeData.json'
 
 export const App = () => {
-  const elements = data
-
   return (
     <>
       <Header />
       <Nav />
       {/* <About /> */}
       <div>
-        {elements.map((element) => (
+        {aTypeData.map((element) => (
           <About title={element.title} body={element.body} badges={element.badges}/>
         ))}
       </div>
-      {/* <Experience /> */}
+
+      <Testimonials elements={bTypeData}/>
       {/* <Services /> */}
       {/* <Portfolio /> */}
 
